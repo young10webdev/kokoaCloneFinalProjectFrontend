@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="logo.png" />
+    <title>Welcome to cokonec</title>
+</head>
+
+<body>
+    <!-- status bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>11:11</span>
+        </div>
+        <div class="status-bar__column">
+            <span clsss="b-percentage">77%</span>
+            <i class="fa-solid fa-battery-three-quarters battery fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    <form id="login-form" class="recovery-form">
+        <img id="find-img" src="find.png">
+        <p class="rf">Forgot password? </p>
+        <p class="description">Enter your email that you used to register your account,
+            so we cans send you a link to reset your password.</p>
+        <input type="email" placeholder="Enter your email" required />
+        <input class="login-form__submit" type="submit" value="Send link" />
+        <p class="rf">Forgot your email? </p>
+        <p class="description">Enter your phone number that you used to register your account,
+            so we cans send you a link to reset your password.</p>
+        <input type="number" placeholder="Enter your phone number" required min="10" />
+        <input class="login-form__submit" type="submit" value="Send link" />
+        <a class="recovery-a" href="index.html">Ready to log in?</a>
+    </form>
+
+    <script src="https://kit.fontawesome.com/4cb2e3d7bf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

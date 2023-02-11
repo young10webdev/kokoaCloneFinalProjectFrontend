@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="logo.png" />
+    <title>Create an account - cokonec</title>
+</head>
+
+<body>
+
+    <!-- status bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>11:11</span>
+        </div>
+        <div class="status-bar__column">
+            <span>77%</span>
+            <i class="fa-solid fa-battery-three-quarters battery fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    <img id="logo-img" class="welcome-header__img sign-up-img" src="coKonec.png">
+    <!-- sign-up-form -->
+    <!-- To do : add friends.html to action to connect -->
+    <form id="sign-up-form" action="#">
+        <input type="text" placeholder="Enter your name" required />
+        <input type="email" placeholder="Enter your email" required />
+        <input type="password" placeholder="Password | Must be at least 8 characters" minlength="8" required />
+        <input class="login-form__submit" type="submit" value="Create account" id="logina" />
+        <a id="login-a" href="index.html">Already have an account? Log In</a>
+    </form>
+    <script src="https://kit.fontawesome.com/4cb2e3d7bf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

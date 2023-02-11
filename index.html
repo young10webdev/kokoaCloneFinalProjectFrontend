@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="logo.png" />
+    <title>Welcome to cokonec</title>
+</head>
+
+<body>
+    <!-- status bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>11:11</span>
+        </div>
+        <div class="status-bar__column">
+            <span>77%</span>
+            <i class="fa-solid fa-battery-three-quarters battery fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    <!-- welcome header -->
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to</h1>
+        <img id="logo-img" class="welcome-header__img" src="coKonec.png" />
+        <p class="welcome-header__text">If you have a coKonec Account, log in with your email or phone number.</p>
+    </header>
+    <!-- login form -->
+    <!-- TO do: add friends.html to action to connect -->
+    <form id="login-form" action="#">
+        <input type="text" placeholder="Email or Phone number" required />
+        <input type="password" placeholder="Password" required />
+        <input class="login-form__submit" type="submit" value="Log In" />
+    </form>
+    <form id="login-form" action="sign-up.html">
+        <input class="login-form__submit" type="submit" value="Sign up" />
+        <a href="recovery.html">Find CoKonec Account or password</a>
+    </form>
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/4cb2e3d7bf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

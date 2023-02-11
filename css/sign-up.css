@@ -1,0 +1,14 @@
+#sign-up-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 90px;
+}
+
+#sign-up-form input {
+    padding: 15px 0;
+    border-radius: 50px;
+    border-style: none;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    margin-bottom: 5px;
+}
