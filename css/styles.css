@@ -4,6 +4,9 @@
 @import "sign-up.css";
 @import "recovery.css";
 @import "nav-bar.css";
+@import "screen-header.css";
+@import "friends.css";
+@import "user-component.css";
 
 
 * {

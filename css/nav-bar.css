@@ -4,7 +4,8 @@
     width: 100%;
     background-image: linear-gradient(to right top, #e06c48, #ea7068, #ee7986, #eb84a2, #e592b9);
     padding: 20px 40px;
-    border-radius: 14px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
 }
 
 .nav__list {

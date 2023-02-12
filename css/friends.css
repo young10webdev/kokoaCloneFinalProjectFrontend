@@ -1,0 +1,14 @@
+#friends-display-link {
+    text-align: center;
+    display: block;
+    background-image: linear-gradient(to right top, #707e94, #8287a7, #9b8fb7, #b895c1, #d89ac5);
+    padding: 15px;
+    opacity: 0.9;
+    font-size: 16px;
+
+}
+
+.fa-chevron-right {
+    padding-left: 10px;
+
+}
