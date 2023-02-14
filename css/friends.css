@@ -2,13 +2,23 @@
     text-align: center;
     display: block;
     background-image: linear-gradient(to right top, #707e94, #8287a7, #9b8fb7, #b895c1, #d89ac5);
-    padding: 15px;
+    padding: 15px 0px;
     opacity: 0.9;
-    font-size: 16px;
-
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
-.fa-chevron-right {
-    padding-left: 10px;
+
+.friends-screen__channel {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 5px;
+}
+
+.friends-screen__channel--header {
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 10px 25px;
 
 }
