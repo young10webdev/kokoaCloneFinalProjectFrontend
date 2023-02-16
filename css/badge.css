@@ -1,0 +1,35 @@
+.badge {
+    background-color: #58c481;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin-right: 15px;
+
+}
+
+.user-hover {
+    color: rgb(239, 239, 239) !important;
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+.user-hover:hover {
+    text-shadow: 0px 0px 6px rgb(200, 193, 146);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.fa-microphone-lines {
+    margin-right: 5px;
+}

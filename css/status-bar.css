@@ -1,7 +1,7 @@
 body {
     background-image: radial-gradient(circle, #d16ba5, #c372b4, #b17ac0, #9e81c8, #8a88cd, #9d8acf, #af8bd0, #c18dd0, #f28bba, #ff9398, #ffa975, #fbc85f);
     object-fit: cover;
-    height: 100vh;
+    height: 1000vh;
 }
 
 .status-bar {

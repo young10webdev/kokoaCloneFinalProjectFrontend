@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="/css/status-bar.css" type="text/css" />
+    <link rel="stylesheet" href="/css/screen-header.css" type="text/css" />
+    <link rel="stylesheet" href="/css/user-component.css" type="text/css" />
+    <link rel="stylesheet" href="/css/friends.css" type="text/css" />
+    <link rel="stylesheet" href="/css/nav-bar.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="logo.png" />
+    <title>Chats - cokonec</title>
+</head>
+
+<body style="
+     background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #a79ae0, #b499df, #c099dd, #e38dc4, #f887a1, #fa8b7b, #ea9859);;
+     ">
+    <!-- status bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>11:11</span>
+        </div>
+        <div class="status-bar__column">
+            <span>77%</span>
+            <i class="fa-solid fa-battery-three-quarters battery fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    <!-- header -->
+    <header class="screen-header">
+        <h1 class="screen-header__title">Chats</h1>
+        <div class="screen-header__icons">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
+            <span><i class="fa-solid fa-music fa-lg"></i></span>
+            <span><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a></span>
+        </div>
+    </header>
+
+    <main class="main-screen chats-screen">
+        <a style="   text-decoration: none;
+                      color: whitesmoke;" href="chat.html">
+            <div class="user-components user-hover">
+                <div class="user-components__column">
+                    <img src="img/adle-burc.png" class="user-components__avatar user-components__avatar" />
+                    <div class="user-components__text">
+                        <h4 class="user-components__title">
+                            Adle Burc
+                        </h4>
+                        <h6 class="user-components__subtitle">
+                            Wow, this is really epic!!
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-components__column">
+                    <span class="user-components__time">13:17</span>
+                    <div class="badge">3</div>
+                </div>
+            </div>
+
+            <div class="user-components user-hover">
+                <div class="user-components__column">
+                    <img src="img/zebadiah-ratcliff.png" class="user-components__avatar user-components__avatar" />
+                    <div class="user-components__text">
+                        <h4 class="user-components__title">
+                            Zebadiah Ratcliff
+                        </h4>
+                        <h6 class="user-components__subtitle">
+                            I have something really cool for you Maria!
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-components__column">
+                    <span class="user-components__time">09:52</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+            <div class="user-components user-hover">
+                <div class="user-components__column">
+                    <img src="img/karlis-quin.png" class="user-components__avatar user-components__avatar" />
+                    <div class="user-components__text">
+                        <h4 class="user-components__title">
+                            Karlis Quin
+                        </h4>
+                        <h6 class="user-components__subtitle">
+                            Karlis is Typing...
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-components__column">
+                    <span class="user-components__time">11:37</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+            <div class="user-components user-hover">
+                <div class="user-components__column">
+                    <img src="img/alexis-prady.png" class="user-components__avatar user-components__avatar" />
+                    <div class="user-components__text">
+                        <h4 class="user-components__title">
+                            Alexis Prady
+                        </h4>
+                        <h6 class="user-components__subtitle">
+                            Let's vote for better option.
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-components__column">
+                    <span class="user-components__time">19:18</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+            <div class="user-components user-hover">
+                <div class="user-components__column">
+                    <img src="img/olav-sturrock.png" class="user-components__avatar user-components__avatar" />
+                    <div class="user-components__text">
+                        <h4 class="user-components__title">
+                            Olav Sturrock
+                        </h4>
+                        <h6 class="user-components__subtitle">
+                            Cool!! Let's meet at 17:00 near the Bay theater
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-components__column">
+                    <span class="user-components__time">09:12</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+            <div class="user-components user-hover">
+                <div class="user-components__column">
+                    <img src="img/lovell-hebner.png" class="user-components__avatar user-components__avatar" />
+                    <div class="user-components__text">
+                        <h4 class="user-components__title">
+                            Lovell Hebner
+                        </h4>
+                        <h6 class="user-components__subtitle">
+                            I love them!!
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-components__column">
+                    <span class="user-components__time">21:30</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+            <div class="user-components user-hover">
+                <div class="user-components__column">
+                    <img src="img/cirillo-rocker.png" class="user-components__avatar user-components__avatar" />
+                    <div class="user-components__text">
+                        <h4 class="user-components__title">
+                            Cirillo Rocker
+                        </h4>
+                        <h6 class="user-components__subtitle">
+                            <i class="fa-solid fa-microphone-lines"></i>Voice message
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-components__column">
+                    <span class="user-components__time">14:21</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+            <div class="user-components user-hover">
+                <div class="user-components__column">
+                    <img src="img/dario-gladis.png" class="user-components__avatar user-components__avatar" />
+                    <div class="user-components__text">
+                        <h4 class="user-components__title">
+                            Dario Gladis
+                        </h4>
+                        <h6 class="user-components__subtitle">
+                            Nice work!!
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-components__column">
+                    <span class="user-components__time">11:38</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+            <div class="user-components user-hover">
+                <div class="user-components__column">
+                    <img src="img/alexandre-macur.png" class="user-components__avatar user-components__avatar" />
+                    <div class="user-components__text">
+                        <h4 class="user-components__title">
+                            Dario Gladis
+                        </h4>
+                        <h6 class="user-components__subtitle">
+                            Today the progress of the project is smooth!
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-components__column">
+                    <span class="user-components__time">17:27</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+            <div class="user-components user-hover">
+                <div class="user-components__column">
+                    <img src="img/grannie-wilson.png" class="user-components__avatar user-components__avatar" />
+                    <div class="user-components__text">
+                        <h4 class="user-components__title">
+                            Gwen wilson
+                        </h4>
+                        <h6 class="user-components__subtitle">
+                            Congrats! you made it!!
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-components__column">
+                    <span class="user-components__time">14:52</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+            <div class="user-components user-hover">
+                <div class="user-components__column">
+                    <img src="img/silvio-toh.png" class="user-components__avatar user-components__avatar" />
+                    <div class="user-components__text">
+                        <h4 class="user-components__title">
+                            Silvio Toh
+                        </h4>
+                        <h6 class="user-components__subtitle">
+                            Thanks Maria! Have a nice day!
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-components__column">
+                    <span class="user-components__time">13:37</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+            <div class="user-components user-hover">
+                <div class="user-components__column">
+                    <img src="img/jule-rida.png" class="user-components__avatar user-components__avatar" />
+                    <div class="user-components__text">
+                        <h4 class="user-components__title">
+                            Jule Rida
+                        </h4>
+                        <h6 class="user-components__subtitle">
+                            Made a design concept for the first three blocks - http:/..
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-components__column">
+                    <span class="user-components__time">18:22</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+            <div class="user-components user-hover">
+                <div class="user-components__column">
+                    <img src="img/timmy-wittenburg.png" class="user-components__avatar user-components__avatar" />
+                    <div class="user-components__text">
+                        <h4 class="user-components__title">
+                            Timmy Wittenburg
+                        </h4>
+                        <h6 class="user-components__subtitle">
+                            Let's see who else wants some fun!
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-components__column">
+                    <span class="user-components__time">17:33</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+            <div class="user-components user-hover">
+                <div class="user-components__column">
+                    <img src="img/dall-dreda.png" class="user-components__avatar user-components__avatar" />
+                    <div class="user-components__text">
+                        <h4 class="user-components__title">
+                            Dall dreda
+                        </h4>
+                        <h6 class="user-components__subtitle">
+                            Thank Maria! Almost there.I'll work on making those..
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-components__column">
+                    <span class="user-components__time">14:21</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+            <div class="user-components user-hover">
+                <div class="user-components__column">
+                    <img src="img/abbey-okechuku.png" class="user-components__avatar user-components__avatar" />
+                    <div class="user-components__text">
+                        <h4 class="user-components__title">
+                            Abbey Okechuku
+                        </h4>
+                        <h6 class="user-components__subtitle">
+                            Sent you 2 photos
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-components__column">
+                    <span class="user-components__time">14:21</span>
+                    <div class="badge">2</div>
+                </div>
+            </div>
+            <div class="user-components user-hover">
+                <div class="user-components__column">
+                    <img src="img/peter-pablo.png" class="user-components__avatar user-components__avatar" />
+                    <div class="user-components__text">
+                        <h4 class="user-components__title">
+                            Peter Pablo
+                        </h4>
+                        <h6 class="user-components__subtitle">
+                            Thank youuuuuuuu!
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-components__column">
+                    <span class="user-components__time">15:17</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+
+
+
+
+
+        </a>
+
+    </main>
+    <!-- Navigation bar  -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-regular fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">7</span>
+                    <i class="fa-solid fa-comment fa-2x"></i></a>
+            </li>
+            <li class="nav__btn"><a class="nav__link" href="find.html">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__noti"></span>
+                    <i class="fa-solid fa-ellipsis fa-2x"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <!-- friends-components -->
+
+    </main>
+    <script src="https://kit.fontawesome.com/4cb2e3d7bf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
