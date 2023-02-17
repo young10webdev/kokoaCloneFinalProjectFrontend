@@ -9,6 +9,10 @@
 @import "user-component.css";
 @import "variable.css";
 @import "badge.css";
+@import "find.css";
+@import "more.css";
+
+
 
 * {
     margin: 0;

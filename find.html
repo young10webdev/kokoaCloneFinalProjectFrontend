@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="/css/status-bar.css" type="text/css" />
+    <link rel="stylesheet" href="/css/screen-header.css" type="text/css" />
+    <link rel="stylesheet" href="/css/user-component.css" type="text/css" />
+    <link rel="stylesheet" href="/css/friends.css" type="text/css" />
+    <link rel="stylesheet" href="/css/nav-bar.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="logo.png" />
+    <title>Find - cokonec</title>
+</head>
+
+<body style="
+     background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #a79ae0, #b499df, #c099dd, #e38dc4, #f887a1, #fa8b7b, #ea9859);;
+     ">
+    <!-- status bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>11:11</span>
+        </div>
+        <div class="status-bar__column">
+            <span>77%</span>
+            <i class="fa-solid fa-battery-three-quarters battery fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    <!-- header -->
+    <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icons">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a></span>
+        </div>
+    </header>
+    <!--header icons -->
+    <main class="main-screen">
+        <div class="find-icons">
+            <div class="find-icons__icon"><img class="find-icons-img" src="img/qrcode.svg" /><span>QR Code</span></div>
+            <div class="find-icons__icon"><img class="find-icons-img" src="img/contacts.svg" /><span>Add by
+                    Contancts</span>
+            </div>
+            <div class="find-icons__icon"><img class="find-icons-img" src="img/addbyid.svg" /><span>Add by ID</span>
+            </div>
+            <div class="find-icons__icon"><img class="find-icons-img" src="img/invite.svg" /><span>Invite</span></div>
+        </div>
+        <!-- recommended friends -->
+        <div class="recommended-friends">
+            <h3 class="recommended-friends__title">Recommended Friends</h3>
+            <span>You have no recommended friends</span>
+        </div>
+        <!-- open chat -->
+        <div class="open-chat">
+            <div class="open-chat__header">
+                <h4>Open Chat</h4>
+                <span>
+                    Go to Openchat Home <i
+                        class="fa-solid fa-chevron-right fa-xs user-components__column--noti"></i></span>
+            </div>
+        </div>
+        <div class="open-post">
+            <div class="open-post__column">
+                <h5 class="open-post__title">#Tech Trend</h5>
+                <h6 class="open-post__hashtag">#Green Tech #Quantum computing R&D #OpenAI</h6>
+                <div class="open-post__members">
+                    <img class="members" src="/img/member.svg" />
+                    <span class="open-post__member-count">789 members</span>
+                    <div class="divider"> | </div>
+                    <span class="open-post__member-status"> Active</span>
+                </div>
+            </div>
+            <div class="open-post__column">
+                <div class="open-post__photo">
+                    <img src="/img/tech.png" />
+                    <div class="open-post__heart-count">
+                        <i class="fa-solid fa-heart fa-xs"></i><span>369</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="open-post">
+            <div class="open-post__column">
+                <h5 class="open-post__title">#What's on Art</h5>
+                <h6 class="open-post__hashtag">#Refik Anadol #Georgia O'Keeffe #Vito Acconci</h6>
+                <div class="open-post__members">
+                    <img class="members" src="/img/member.svg" />
+                    <span class="open-post__member-count">623 members</span>
+                    <div class="divider"> | </div>
+                    <span class="open-post__member-status"> Active</span>
+                </div>
+            </div>
+            <div class="open-post__column">
+                <div class="open-post__photo">
+                    <img src="/img/art.png" />
+                    <div class="open-post__heart-count">
+                        <i class="fa-solid fa-heart fa-xs"></i><span>279</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="open-post ">
+            <div class="open-post__column">
+                <h5 class="open-post__title">#Biohacks</h5>
+                <h6 class="open-post__hashtag">#Life style #Cryotherapy #Functional Music</h6>
+                <div class="open-post__members">
+                    <img class="members" src="/img/member.svg" />
+                    <span class="open-post__member-count">777 members</span>
+                    <div class="divider"> | </div>
+                    <span class="open-post__member-status"> Active</span>
+                </div>
+            </div>
+            <div class="open-post__column">
+                <div class="open-post__photo">
+                    <img src="/img/meditation.png" />
+                    <div class="open-post__heart-count">
+                        <i class="fa-solid fa-heart fa-xs"></i><span>589</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+    </main>
+    <!-- Navigation bar  -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-regular fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">7</span>
+                    <i class="far fa-comment fa-2x"></i></a>
+            </li>
+            <li class="nav__btn"><a class="nav__link" href="find.html">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__noti"></span>
+                    <i class="fa-solid fa-ellipsis fa-2x"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+    </main>
+    <script src="https://kit.fontawesome.com/4cb2e3d7bf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="/css/status-bar.css" type="text/css" />
+    <link rel="stylesheet" href="/css/screen-header.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="logo.png" />
+    <title>Friends - cokonec</title>
+</head>
+
+<body style="
+     background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #a79ae0, #b499df, #c099dd, #e38dc4, #f887a1, #fa8b7b, #ea9859);;
+     ">
+    <!-- status bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>11:11</span>
+        </div>
+        <div class="status-bar__column">
+            <span>77%</span>
+            <i class="fa-solid fa-battery-three-quarters battery fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    <!-- Navigation bar  -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-solid fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">7</span>
+                    <i class="fa-regular fa-comment fa-2x"></i></a>
+            </li>
+            <li class="nav__btn"><a class="nav__link" href="find.html">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                    <span class="nav__noti"></span>
+                    <i class="fa-solid fa-ellipsis fa-2x"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <!-- header -->
+    <header class="screen-header">
+        <h1 class="screen-header__title">More</h1>
+        <div class="screen-header__icons">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-music fa-lg"></i></span>
+            <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        </div>
+    </header>
+
+
+
+    <!-- user-components -->
+    <main class="main-screen">
+        <div class="user-components">
+            <div class="user-components__column">
+                <img src="img/maria-parco.png" class="user-components__avatar user-components__avatar--xl" />
+                <div class="user-component__text">
+                    <h4 class="user-components__title">Maria Parco</h4>
+                    <h6 class="user-components__subtitle">+1 917-279-1234
+                        <i class="fa-solid fa-heart"></i>
+                    </h6>
+                </div>
+
+            </div>
+            <div class="user-components__column ">
+                <div>
+
+                    <img id="more-img" src="/img/more.svg" style="width: 50px; height: 50px; padding-right:3px;">
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="https://kit.fontawesome.com/4cb2e3d7bf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

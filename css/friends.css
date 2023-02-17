@@ -11,7 +11,7 @@
 
 
 .friends-screen__channel {
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: var(--main-border);
     padding-top: 5px;
 }
 
@@ -34,3 +34,20 @@ a {
     text-decoration: none;
     color: whitesmoke;
 }
+
+.user-components__column-hover:hover {
+    filter: drop-shadow(0 -2mm 5mm rgb(231, 172, 225));
+}
+
+.user-components:hover,
+.user-components__spotify:hover {
+    box-shadow: 0px 7px 10px 5px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
+    filter: drop-shadow(0 -2mm 7mm rgb(225, 222, 53));
+    border-radius: 20px;
+
+}
+
+/* .user-comp onents__spotify:hover{  
+    filter: drop-shadow(0 -2mm 7mm rgb(225, 222, 53));
+}*/
