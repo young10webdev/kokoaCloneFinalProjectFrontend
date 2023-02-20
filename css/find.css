@@ -155,3 +155,30 @@
     filter: drop-shadow(0 -2mm 7mm rgb(225, 222, 53));
     border-radius: 20px;
 }
+
+.open-post__heart-count span {
+    margin-left: 3px;
+}
+
+@keyframes heartBeat {
+    0% {
+        color: white;
+        transform: none;
+
+    }
+
+    50% {
+        color: tomato;
+        transform: scale(1.5);
+    }
+
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+
+.open-post__heart-count:hover i {
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
+}
