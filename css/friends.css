@@ -35,6 +35,7 @@ a {
     color: whitesmoke;
 }
 
+
 .user-components__column-hover:hover {
     filter: drop-shadow(0 -2mm 5mm rgb(231, 172, 225));
 }
@@ -42,7 +43,7 @@ a {
 .user-components:hover,
 .user-components__spotify:hover {
     box-shadow: 0px 7px 10px 5px rgba(0, 0, 0, 0.3);
-    transform: translateY(2px);
+    transform: translateY(1px);
     filter: drop-shadow(0 -2mm 7mm rgb(225, 222, 53));
     border-radius: 20px;
 
@@ -51,3 +52,32 @@ a {
 /* .user-comp onents__spotify:hover{  
     filter: drop-shadow(0 -2mm 7mm rgb(225, 222, 53));
 }*/
+
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#splash-screen {
+    background-image: linear-gradient(to right top, #c11777, #c9357d, #d14b84, #d85d8b, #df6f93, #e078a0, #e080ac, #df89b7, #d38ec9, #c394d8, #ae9ce5, #94a3ee);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: hideSplashScreen 0.4s ease-in-out forwards;
+    animation-delay: 1s;
+}
+
+#splash-screen img {
+    width: 250px;
+    height: 250px;
+}

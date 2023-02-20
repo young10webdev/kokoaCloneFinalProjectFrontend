@@ -1,0 +1,46 @@
+.settings__setting {
+    padding: 20px 0px;
+    border-bottom: var(--main-border);
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings__setting i {
+    margin-right: 15px;
+    color: rgb(235, 235, 242);
+}
+
+#last {
+    opacity: 0.6;
+}
+
+#last-c {
+    padding-bottom: 70px;
+}
+
+.settings__setting-column {
+    position: relative;
+}
+
+.noti {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: #58c481;
+    position: absolute;
+    bottom: -3px;
+    left: 145px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    margin-right: 15px;
+}
+
+.settings__setting:hover {
+    filter: drop-shadow(0 -2mm 7mm rgb(243, 19, 172));
+    transform: translateY(-5px);
+}

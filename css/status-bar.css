@@ -5,10 +5,16 @@ body {
 }
 
 .status-bar {
+    position: fixed;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
     padding: 8px 5px;
+}
 
+.status-bar {
+    z-index: 2;
+    top: 0;
 }
 
 .status-bar__column {

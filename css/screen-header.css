@@ -1,8 +1,14 @@
 .screen-header {
     display: flex;
+    width: 100%;
+    margin-top: 20px;
+
+    box-sizing: border-box;
+    z-index: 1;
     justify-content: space-between;
     align-items: center;
-    padding: var(--horizontal-space);
+    padding: 40px 25px 15px var(--horizontal-space);
+
 
 }
 
@@ -15,4 +21,9 @@
 .screen-header__icons span {
     margin-left: 25px;
 
+}
+
+.status-bar {
+    background-image: linear-gradient(to right top, #f89778, #ff958a, #ff949e, #ff96b3, #ff9ac7);
+    opacity: 0.8;
 }

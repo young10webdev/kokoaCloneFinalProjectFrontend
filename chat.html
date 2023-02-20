@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="/css/status-bar.css" type="text/css" />
+    <link rel="stylesheet" href="/css/screen-header.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="logo.png" />
+    <title>More - cokonec</title>
+</head>
+
+<body id="chat-screen" style="
+    background-image: radial-gradient(circle, #d16ba5, #c062ab, #ab5bb1, #9057b8, #6e55bd, #854fb9, #9a49b4, #ad41ac, #e03a89, #f95061, #f8783a, #e4a119);
+     ">
+    <!-- status bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>11:11</span>
+        </div>
+        <div class="status-bar__column">
+            <span>77%</span>
+            <i class="fa-solid fa-battery-three-quarters battery fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <!-- header -->
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html"><i class="fa-solid fa-chevron-left fa-2x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header-title">Adle </h1>
+        </div>
+        <div class="alt-header__column">
+            <a href="find.html">
+                <span><i class="fa-solid fa-magnifying-glass fa-2x"></i></a></span>
+            <span><i class="fa-solid fa-bars fa-2x"></i></span>
+        </div>
+        </div>
+    </header>
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Satureday,October 19, 2023
+        </div>
+
+        <div class="message-row">
+            <img src="img/adle-burc.png" />
+            <div class="message-row__content">
+                <span class="message__author">Adle</span>
+                <div class="message__info">
+                    <span class="message__bubble">Wow, this is really epic!!</span>
+                    <span class="message__time">13:17</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row__own">
+            <div class="message__info">
+                <span class="message__bubble message__bubble-own">
+                    Thanks, it means a lot coming from you.
+                </span>
+                <span class="message__time">13:17</span>
+            </div>
+        </div>
+        </div>
+
+        <div class="message-row">
+            <img src="img/adle-burc.png" />
+            <div class="message-row__content">
+                <span class="message__author">Adle</span>
+                <div class="message__info">
+                    <span class="message__bubble">No problem, keep up the good work!</span>
+                    <span class="message__time">13:17</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message...">
+            <i class="fa-regular fa-face-smile-wink"></i>
+            <button> <i class="fa-solid fa-arrow-up"></i></button>
+        </div>
+    </form>
+
+
+
+
+    <script src="https://kit.fontawesome.com/4cb2e3d7bf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

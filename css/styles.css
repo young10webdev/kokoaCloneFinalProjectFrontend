@@ -11,8 +11,11 @@
 @import "badge.css";
 @import "find.css";
 @import "more.css";
-
-
+@import "icon-row.css";
+@import "more.css";
+@import "alt-screen-header.css";
+@import "settings.css";
+@import "chat.css";
 
 * {
     margin: 0;
@@ -25,6 +28,7 @@ body {
     color: whitesmoke;
     height: 1000vh;
     object-fit: cover;
+
 }
 
 .welcome-header {
